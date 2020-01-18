@@ -1,0 +1,17 @@
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: ${HOME}/IdeaProjects/spring-cloud-tutorial/lab-5-configs
+      fail-fast: true
+server:
+  port: 8001
+
+#encrypt:
+#  keyStore:
+#    location: ${user.home}/keystore.jks
+#    location: /Users/obothlalekganane/keystore.jks
+#    alias: selfsigned-difference
+#    password: p@assw0rD
+#    secret: 123456
